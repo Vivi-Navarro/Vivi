@@ -1,12 +1,5 @@
-/*Presentacíon
-Viviana Navarro Plascencia
-09/02/2024
-Nombre: Actividad de programación - 3
-Centro Universitario De los Altos
-Ing en computacion/2do semestre
-Profesor: Sergio Franco Casillas
-Descripcion: Numeros que sube el usuario*/
 #include <iostream>
+#include <stdio.h>
 using namespace std;
 
 int main() {
@@ -25,7 +18,6 @@ int main() {
             {
                 numero += 5;
                 operaciones++;
-                cout << numero << endl;
             }
         }
         else if (numero >= 500 && numero < 1000)
@@ -34,7 +26,6 @@ int main() {
             {
                 numero += 10;
                 operaciones++;
-                cout << numero << endl;
             }
         }
         else
@@ -42,7 +33,7 @@ int main() {
             cout << "No se puede calcular el valor" << endl;
         }
 
-        cout << "Quieres continuar? (s/n):";
+        cout << "Quieres continuar? (s/n): ";
         cin >> pregunta;
     }
     while (pregunta == 's' || pregunta == 'S');
@@ -51,4 +42,3 @@ int main() {
 
     return 0;
 }
-
