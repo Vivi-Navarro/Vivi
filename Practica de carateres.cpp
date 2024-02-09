@@ -24,5 +24,5 @@ int main () {
   printf ("Cual es tu numero favorito con punto decimal\?\n");
   scanf ("%f", &nf);
   printf ("\fFin\b\a");
-  return 0;
+  return 0;
 }
